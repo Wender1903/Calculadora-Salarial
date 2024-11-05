@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>width</title>
+
+    <style> body {
+        background-color: #000000;
+       
+    }    
+    </style>
+</head>
+<body>
+
+
+   
+       
+        <div class="cadastro_body">
+            <div class="cadastro_box">
+                <h2>Calculadora Salarial</h2>
+               
+                <form>  
+                  
+                    <label for="lname" class="titulo">Nome </label>
+                    <input type="text" name="titulo"  id="nome"  placeholder="Digite seu nome ">  
+                
+                    <label for="lname" class="cep">Tempo de empressa  </label>
+                    <input type="text" name="nome" id="Tempo"   placeholder="Quantos anos você trabalha aqui ">
+
+                    <label for="lname" class="endereco">Salário Atual</label>
+                    <input type="text" name="address"  id="salario" placeholder="Salário recebido mensalmente ">
+
+
+                    
+                    <div>
+                        <input type="button" class="submit" value="Calcular salário" onclick="calcularAumento()">
+                    </div>
+
+                    
+                </form>
+            </div>
+            
+        </div>
+
+        <div style="margin-right: 5%;">
+        <h3 style="margin: 1rem 0; color: #ffffff; border-bottom: 1.5px solid rgb(86, 86, 184);">Dados Atializados: </h3>
+        <h4 style="margin: .7em 0; color: #ffffff;" id="nomeFunc"></h4>
+        <h4 style="margin: .7em 0; color: #ffffff;" id="tempoTrabalho"></h4>
+        <h4 style="margin: .7em 0; color: #ffffff;" id="salarioAntigo"></h4>
+        <h4 style="margin: .7em 0; color: #ffffff;" id="textoAumento"></h4>
+        <h4 style="margin: .7em 0; color: #ffffff;" id="textoNovoSalario"></h4>
+        </div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
